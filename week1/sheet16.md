@@ -1,0 +1,17 @@
+<body>
+  <h2>My Skills</h2>
+  <ul>
+    <li>HTML — page structure</li>
+    <li>CSS — visual design</li>
+    <li>JavaScript — interactive behaviour</li>
+    <li>PHP — server-side logic</li>
+  </ul>
+
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+</body>
