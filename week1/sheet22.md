@@ -1,0 +1,19 @@
+<style>
+  .card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  .featured {
+    border-color: teal;
+    background: #e6f7f4;
+  }
+  .large { font-size: 1.2em; }
+</style>
+
+<div class="card">HTML Basics</div>
+<div class="card">CSS Styling</div>
+<div class="card featured">JavaScript</div>
+<div class="card featured large">Advanced Project</div>
+
+<button class="btn btn-primary btn-large">Submit</button>
