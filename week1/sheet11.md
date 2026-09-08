@@ -1,0 +1,9 @@
+<body>
+  <p>Quiz deadline: <strong>Friday 09:00</strong>.
+     Submissions after this time receive zero marks.</p>
+
+  <p>Warning: <strong>never submit without the DOCTYPE.</strong></p>
+
+  <p>The <b>h1</b> element is discussed in topic 4.</p>
+
+</body>
