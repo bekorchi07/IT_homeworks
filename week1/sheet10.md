@@ -1,0 +1,15 @@
+<body>
+  <p>
+    Normal text,
+    <strong>bold text</strong>,
+    <em>italic text</em>,
+    <a href="#">a link</a>,
+    and <span class="highlight">highlighted text</span>
+    all sit on ONE line.
+  </p>
+
+  <style>
+    .highlight { background: yellow; color: black; padding: 2px 4px; }
+  </style>
+
+</body>
