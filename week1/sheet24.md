@@ -1,0 +1,14 @@
+<body>
+  <h2>Heading (block)</h2>
+  <p>Paragraph (block)</p>
+  <div>Div (block)</div>
+  <p>
+    This paragraph contains
+    <strong>bold (inline)</strong>,
+    <em>italic (inline)</em>,
+    <a href="#">a link (inline)</a>, and
+    <span style="color:teal">coloured text (inline)</span>
+    — all on the same line.
+  </p>
+  <p><strong>Good</strong> — span inside p</p>
+</body>
