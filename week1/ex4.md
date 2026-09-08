@@ -5,7 +5,7 @@
   <title>Image Example</title>
 </head>
 <body>
-  <h1>My Campus Photo</h1>
+  <h1>My Photo</h1>
   <img src="images/campus23.png"
        alt="this is me when i come this univer for the first time"
        width="560"
