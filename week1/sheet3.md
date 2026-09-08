@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Browser Tab Text</title>
+</head>
+<body>
+  <h1>This heading is visible</h1>
+  <p>This paragraph is visible.</p>
+  <img src="photo.jpg" alt="A photo">
+  <a href="about.html">This link is visible</a>
+</body>
+</html>
