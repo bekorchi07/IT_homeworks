@@ -5,17 +5,6 @@
   <title>Exercise 7: Quotation & Citation Page</title>
 </head>
 <body>
-
-  <!-- Exercise 7 (Intermediate): Create an 'Inspirational Quotes' page -->
-  
-  <!-- Must include:
-       - h1 heading
-       - One inline quote using <q> embedded in a sentence
-       - Two <blockquote> elements each with a <footer> containing author name in <cite>
-       - A <details> section for 'About these quotes' with explanation (use <abbr> for acronyms)
-  -->
-
-  <!-- Example provided: -->
   <p>Einstein once said, <q>Imagination is more important than knowledge.</q></p>
   
   <blockquote cite="https://example.com/speech">
@@ -23,16 +12,6 @@
        for sharing knowledge.</p>
     <footer>— <cite>A Web Pioneer</cite>, 2026</footer>
   </blockquote>
-
-  <!-- Your content here: -->
-  <!-- Create:
-       - h1 "Inspirational Quotes" or similar
-       - paragraph with <q> element
-       - First <blockquote> with quote and <footer><cite>author</cite></footer>
-       - Second <blockquote> with quote and <footer><cite>author</cite></footer>
-       - <details> section with <summary>About these quotes</summary>
-       - Inside details, explain where found (use <abbr> for acronyms like IMDb, API, etc.)
-  -->
 
   <h1>Inspirational Quotes</h1>
 
