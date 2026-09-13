@@ -1,0 +1,11 @@
+<p>Use the <code>display: flex</code> property to create a flexbox container.</p>
+<p>Set <code>lang="ko"</code> on the <code>&lt;html&gt;</code> element for Korean pages.</p>
+<p>Call <code>document.getElementById('nav')</code> to select the element.</p>
+<p>Save the file as <code>index.html</code> in your project root.</p>
+<figure>
+  <pre><code>function greet(name) {
+  return 'Hello, ' + name + '!';
+}
+console.log(greet('Gachon'));</code></pre>
+  <figcaption>A simple JavaScript greeting function.</figcaption>
+</figure>
