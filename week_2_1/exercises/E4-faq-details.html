@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 4: FAQ with Details & Summary</title>
+</head>
+<body>
+
+  <!-- Exercise 4: Build a FAQ section with four questions about HTML/web programming -->
+  <!-- Use <details> and <summary>. First one should start open (use 'open' attribute) -->
+  <!-- Wrap all four in a <section> with an h2 heading -->
+
+  <!-- Example provided: -->
+  <details>
+    <summary>What does semantic HTML mean?</summary>
+    <p>Semantic HTML means choosing elements based on their
+       meaning, not their appearance.</p>
+  </details>
+
+  <!-- Your content here: -->
+  <!-- Create <section> with h2 heading "Frequently Asked Questions" -->
+  <!-- Create 4 <details> elements:
+       - 1st one: use 'open' attribute to show expanded
+       - Each with <summary> and <p> answer
+       - Questions about HTML/web programming of your choice
+  -->
+
+  <section>
+    <h2>Frequently Asked Questions</h2>
+
+    <details open>
+      <summary>What does semantic HTML mean?</summary>
+      <p>Semantic HTML means choosing elements based on their meaning and purpose, not their appearance. It helps search engines, screen readers, and other tools understand the structure and content of your page.</p>
+    </details>
+
+    <details>
+      <summary>What is the difference between block and inline elements?</summary>
+      <p>Block elements take up the full width available and start on a new line, like div, p, and section. Inline elements only take up as much width as necessary and flow within text, like span, a, and em.</p>
+    </details>
+
+    <details>
+      <summary>When should I use &lt;article&gt; vs &lt;section&gt;?</summary>
+      <p>Use &lt;article&gt; for self-contained, syndicate-able content like blog posts or news articles. Use &lt;section&gt; for thematic grouping of content within a page.</p>
+    </details>
+
+    <details>
+      <summary>What is ARIA and why is it important?</summary>
+      <p><abbr title="Accessible Rich Internet Applications">ARIA</abbr> is a set of attributes that help make web content more accessible to people with disabilities. It provides additional context to assistive technologies about dynamic content and user interface controls.</p>
+    </details>
+  </section>
+
+</body>
+</html>

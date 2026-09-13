@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mark, Abbr, Blockquote, Q, Cite, Code Examples</title>
+  <style>
+    mark {
+      background-color: #ffd700;
+      color: #000;
+      padding: 1px 3px;
+      border-radius: 3px;
+    }
+    abbr[title] {
+      cursor: help;
+      text-decoration: underline dotted;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Mark Example -->
+  <h2>Search Results for "semantic HTML"</h2>
+  <article>
+    <h3>Why <mark>Semantic HTML</mark> Matters</h3>
+    <p>This guide explains how <mark>semantic HTML</mark> improves
+       accessibility and SEO. Using proper elements...</p>
+  </article>
+
+  <!-- Abbr Example -->
+  <p>
+    <abbr title="HyperText Markup Language">HTML</abbr>
+    is the foundation of every web page.
+    It works with
+    <abbr title="Cascading Style Sheets">CSS</abbr>
+    and
+    <abbr title="JavaScript">JS</abbr>
+    to create complete websites.
+  </p>
+
+  <!-- Blockquote Example -->
+  <article>
+    <h2>On the Web</h2>
+    <p>The inventor of the web described his vision clearly:</p>
+
+    <blockquote cite="https://www.w3.org/People/Berners-Lee/FAQ.html">
+      <p>The original idea of the web was that it should be a
+         collaborative space where you can communicate through sharing
+         information.</p>
+      <footer>
+        — <cite>Tim Berners-Lee</cite>, W3C Director
+      </footer>
+    </blockquote>
+
+    <p>Today, his vision has expanded beyond what even he imagined.</p>
+  </article>
+
+  <!-- Q Example -->
+  <p>
+    Tim Berners-Lee once said,
+    <q cite="https://www.w3.org/People/Berners-Lee/FAQ.html">
+      The web is for everyone.
+    </q>
+  </p>
+
+  <!-- Code and Pre Examples -->
+  <p>Use the <code>display: flex</code> property to create a flexbox container.</p>
+  <p>Set <code>lang="ko"</code> on the <code>&lt;html&gt;</code> element for Korean pages.</p>
+
+  <figure>
+    <pre><code>function greet(name) {
+  return 'Hello, ' + name + '!';
+}
+console.log(greet('Gachon'));</code></pre>
+    <figcaption>A simple JavaScript greeting function.</figcaption>
+  </figure>
+
+</body>
+</html>

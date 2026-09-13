@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Correct DOCTYPE</title>
-</head>
-<body>
-  <p>This page renders in standards mode.</p>
-</body>
-</html>
