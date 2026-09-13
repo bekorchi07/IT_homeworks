@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko"><!-- lang="ko" for Korean content -->
+<head>
+  <meta charset="UTF-8">
+  <title>강의자료 — 웹프로그래밍</title>
+</head>
+<body>
+
+  <header>         
+    <h1>Web Programming K0126002</h1>
+    <nav>          
+      <a href="/">홈</a>
+      <a href="/schedule">일정</a>
+    </nav>
+  </header>
+
+  <main>           
+    <h2>Week 2: Semantic HTML</h2>
+    <article>...</article>
+
+    <aside>        
+      <h2>관련 자료</h2>
+    </aside>
+  </main>
+
+  <footer>         
+    <p>&copy; 2026 가천대학교</p>
+  </footer>
+
+</body>
+</html>
