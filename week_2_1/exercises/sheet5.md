@@ -5,41 +5,6 @@
   <title>Exercise 5: Full Semantic Portfolio Page</title>
 </head>
 <body>
-
-  <!-- Exercise 5 (Intermediate): Build your complete semantic portfolio page -->
-  
-  <!-- Must include:
-       - <header> with h1 name + <nav> (4 links with fragment hrefs like #about, #projects)
-       - <main> containing:
-         * About section (with <figure>+<img>+<figcaption>, paragraph with <abbr>+<mark>)
-         * Projects section (one <article> with its own header+<time>)
-         * <aside> with skills list
-         * Contact section with <address>
-       - <footer>
-  -->
-
-  <!-- Skeleton template provided: -->
-  <!--
-  <header>
-    <h1>Name</h1>
-    <nav>...</nav>
-  </header>
-  <main>
-    <section id="about"><h2>About</h2>...</section>
-    <section id="projects">
-      <h2>Projects</h2>
-      <article>
-        <header><h3>Project Name</h3><p><time datetime="2026-09">Sep 2026</time></p></header>
-        <p>Description with <code>technical term</code>.</p>
-      </article>
-    </section>
-    <aside><h2>Skills</h2><ul>...</ul></aside>
-    <section id="contact"><h2>Contact</h2><address>...</address></section>
-  </main>
-  <footer><p>&copy; 2026 Name</p></footer>
-  -->
-
-  <!-- Write your portfolio page here: -->
   <header>
     <h1>Lee Jin — Web Developer</h1>
     <nav>
@@ -59,8 +24,7 @@
       </figure>
       <p>I'm a passionate <mark>web developer</mark> with expertise in modern web technologies. I specialize in building responsive, accessible web applications using <abbr title="HyperText Markup Language">HTML</abbr>, CSS, and JavaScript.</p>
     </section>
-
-    <section id="projects">
+       <section id="projects">
       <h2>Projects</h2>
       <article>
         <header>
@@ -91,6 +55,8 @@
         Location: Seoul, South Korea
       </address>
     </section>
+
+ 
   </main>
 
   <footer>
